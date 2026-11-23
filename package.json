@@ -10,8 +10,7 @@
     "start": "node --no-warnings=ExperimentalWarning server.js --prod",
     "kernel": "make -C c_engine",
     "db": "node --no-warnings=ExperimentalWarning scripts/resShowDb.js",
-    "test:sync": "node tests/resSync.test.js",
-    "test:load": "node scripts/resLoadTest.js"
+    "test:sync": "node tests/resSync.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -22,8 +21,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.3",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "vite": "^5.4.10"
   },
   "engines": {
